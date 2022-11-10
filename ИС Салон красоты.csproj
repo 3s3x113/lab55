@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74BC7737-6B89-4ED5-A054-5E9107160867}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ИС_Салон_красоты</RootNamespace>
+    <AssemblyName>ИС Салон красоты</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFormOborudovanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFormOborudovanie.Designer.cs">
+      <DependentUpon>AddFormOborudovanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFormOkazanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFormOkazanie.Designer.cs">
+      <DependentUpon>AddFormOkazanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddFormOplata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddFormOplata.Designer.cs">
+      <DependentUpon>AddFormOplata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchFormOkazanie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFormOkazanie.Designer.cs">
+      <DependentUpon>SearchFormOkazanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchFormOplata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchFormOplata.Designer.cs">
+      <DependentUpon>SearchFormOplata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Главная.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Главная.Designer.cs">
+      <DependentUpon>Главная.cs</DependentUpon>
+    </Compile>
+    <Compile Include="запись.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="запись.Designer.cs">
+      <DependentUpon>запись.cs</DependentUpon>
+    </Compile>
+    <Compile Include="клиент.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="клиент.Designer.cs">
+      <DependentUpon>клиент.cs</DependentUpon>
+    </Compile>
+    <Compile Include="оборудование.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="оборудование.Designer.cs">
+      <DependentUpon>оборудование.cs</DependentUpon>
+    </Compile>
+    <Compile Include="один.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="один.Designer.cs">
+      <DependentUpon>один.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Оказание услуг.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Оказание услуг.Designer.cs">
+      <DependentUpon>Оказание услуг.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Оплата работы.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Оплата работы.Designer.cs">
+      <DependentUpon>Оплата работы.cs</DependentUpon>
+    </Compile>
+    <Compile Include="практика1DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>практика1DataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFormOborudovanie.resx">
+      <DependentUpon>AddFormOborudovanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFormOkazanie.resx">
+      <DependentUpon>AddFormOkazanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddFormOplata.resx">
+      <DependentUpon>AddFormOplata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchFormOkazanie.resx">
+      <DependentUpon>SearchFormOkazanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchFormOplata.resx">
+      <DependentUpon>SearchFormOplata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Главная.resx">
+      <DependentUpon>Главная.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="запись.resx">
+      <DependentUpon>запись.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="клиент.resx">
+      <DependentUpon>клиент.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="оборудование.resx">
+      <DependentUpon>оборудование.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="один.resx">
+      <DependentUpon>один.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Оказание услуг.resx">
+      <DependentUpon>Оказание услуг.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Оплата работы.resx">
+      <DependentUpon>Оплата работы.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="практика1DataSet.xsc">
+      <DependentUpon>практика1DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="практика1DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>практика1DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="практика1DataSet.xss">
+      <DependentUpon>практика1DataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="практика1.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

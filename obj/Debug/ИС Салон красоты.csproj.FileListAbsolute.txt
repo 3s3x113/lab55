@@ -1,0 +1,25 @@
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\bin\Debug\практика1.mdb
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\bin\Debug\ИС Салон красоты.exe.config
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\bin\Debug\ИС Салон красоты.exe
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\bin\Debug\ИС Салон красоты.pdb
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС Салон красоты.csproj.AssemblyReference.cache
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.Form1.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.Properties.Resources.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС Салон красоты.csproj.GenerateResource.cache
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС Салон красоты.csproj.CoreCompileInputs.cache
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС Салон красоты.exe
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС Салон красоты.pdb
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.Оплата_работы.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.Form2.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.SearchForm.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.AddForm.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.Главная.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.SearchFormOkazanie.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.SearchFormOplata.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.AddFormOkazanie.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.AddFormOplata.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.AddFormOborudovanie.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.один.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.запись.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.клиент.resources
+C:\Users\1645282\source\repos\ИС Салон красоты\ИС Салон красоты\obj\Debug\ИС_Салон_красоты.оборудование.resources
